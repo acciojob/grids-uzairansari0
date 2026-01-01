@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+
+.main-container {
+	width: 600px;
+	border: 5px solid rgb(0, 255, 0);
+	background-color: rgb(41, 0, 0);
+	padding: 10px;
+}
+
+.custom-row {
+	border: 5px solid rgb(255, 188, 188);
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+.custom-row [class^="col"] {
+	border: 2px dotted rgb(38, 38, 43);
+}
+.r1c1 { background-color: teal; }
+.r1c2 { background-color: thistle; }
+.r2c1 { background-color: tomato; }
+.r2c2 { background-color: turquoise; }
+.r3c1 { background-color: violet; }
+.r3c2 { background-color: yellowgreen; }
